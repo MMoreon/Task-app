@@ -4,12 +4,8 @@ body {
     background-color: rgb(195, 255, 255);
 }
 
-header {
-    padding: 20px 0;
-}
-
 .container {
-    width: 50%;
+    width: 100%;
     padding: 25px;
 }
 
