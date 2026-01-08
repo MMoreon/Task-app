@@ -12,20 +12,69 @@
 </head>
 
 <body>
+        <!-- бутстрап меню, при уменьшении экрана (телефон) появляется кнопка навигации -->
+    <nav class="navbar navbar-expand-lg">
+        <!-- container-fluid имеет width: 100% на всех контрольных точках  -->
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Классическая задача ТуДу</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Переключатель навигации">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="index.html">Главная</a>
+                    <a class="nav-link" href="tech.html">Что применялось</a>
+                    <a class="nav-link" href="#">О себе</a>
+                </div>
+            </div>
+        </div>
+    </nav>
     <div class="container-fluid">
         <div class="row">
-            </div class="col-6">
-            </div class="col-6">
+            <div class="col-6">
+                <img src="img/bootstrap-icons.png" class="img-fluid" alt="Bootstrap">
+            </div>
+            <div class="col-6">
+                <i>Bootstrap позволяет очень быстро создавать адаптивные и современные веб-интерфейсы.
+                    Его главная особенность — готовые, тщательно протестированные строительные блоки.
+                    Вы получаете мощную 12-колоночную сетку для гибкой раскладки,
+                    десятки предварительно стилизованных компонентов (кнопки, формы, навигационные панели, карточки)
+                    и утилитарные классы для отступов, цветов и выравнивания.
+                    Всё это изначально адаптировано под мобильные устройства (mobile-first)
+                    и корректно отображается в разных браузерах.
+                </i>
+            </div>
         </div>
         <div class="row">
-            </div class="col-6">
-            </div class="col-6">
+            <div class="col-8">
+                <i><br>HTML определяет, как элементы должны быть представлены на странице,
+                    используя теги для описания заголовков, абзацев, списков,
+                    таблиц и мультимедийных объектов.
+                    Благодаря этому, веб-браузеры могут интерпретировать и отображать контент в соответствии с заданной разметкой,
+                    обеспечивая единообразный пользовательский интерфейс на разных устройствах и экранах.</i>
+            </div>
+            <div class="col-4">
+                <img src="img/html-icon.png" class="img-fluid" alt="html">
+            </div>
         </div>
         <div class="row">
-            </div class="col-6">
-            </div class="col-6">
+            <div class="col-3">
+                <img src="img/css-icon.png" class="img-fluid" alt="css">
+            </div>
+            <div class="col-9">
+                <i><br>CSS (Cascading Style Sheets) отвечает за визуальное оформление веб-страниц,
+                    определяя, как элементы HTML будут выглядеть на экране.
+                    С его помощью можно задавать цвета, шрифты, размеры, отступы и другие стилистические характеристики.
+                    CSS позволяет отделить структуру документа от его представления,
+                    что упрощает процесс разработки и поддержания веб-сайтов.
+                    Благодаря каскадным правилам, стили могут наследоваться и переопределяться</i>
+            </div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
