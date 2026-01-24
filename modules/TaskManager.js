@@ -1,18 +1,18 @@
 class TaskManager {
-    constructor() {
+    constructor(){
+        this.lastId = 0;
         this.tasks = []
     }
-
-    addTask(text) {
-        const newExample = {
-            id: Date.now(),
-            text: text,
+    addTask(textTask){
+        const task = {
+            id: ++this.lastId,
+            text: textTask,
             completed: false,
-            createdAt: new Date().toISOString()
-        }
+            createdAt: new Date()
+        };
 
-        this.tasks.push(newExample)
-        
-        return newExample;
+        this.tasks.push(task)
+
+        return task
     }
 }
